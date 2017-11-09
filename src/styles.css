@@ -1,0 +1,54 @@
+ProgressIndicator {
+    -fx-progress-color: green;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+}
+
+BorderPane {
+    -fx-fill-width: true;
+    -fx-fill-height: true;
+}
+
+Login GridPane {
+    -fx-hgap: 20;
+    -fx-vgap: 10;
+    -fx-alignment: center;
+}
+
+Button {
+    -fx-cursor: hand;
+}
+
+/* Login page */
+
+Login TextField {
+    -fx-pref-width: 200;
+}
+
+Login ProgressIndicator {
+    -fx-pref-width: 25;
+    -fx-pref-height: 25;
+}
+
+Login Button {
+    -fx-pref-height: 25;
+}
+
+Login ImageView {
+    -fx-effect: dropshadow(gaussian, gray, 2, 0.3, 1, 1);
+}
+
+Login VBox {
+    -fx-spacing: 30;
+    -fx-fill-height: true;
+    -fx-alignment: center;
+
+}
+
+Login HBox {
+    -fx-alignment: center;
+    -fx-fill-width: true;
+}
+
+
+
